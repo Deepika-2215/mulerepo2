@@ -29,6 +29,20 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				<configuration>
+<cloudHubDeployment>
+<uri>https://anypoint.mulesoft.com</uri>
+<username>Deepu_15</username>
+<password>Deepu@15</password>
+<environment>Sandbox</environment>
+<muleVersion>4.7.0</muleVersion>
+<region>us-east-1</region>
+<workers>1</workers>
+<workerType>Micro</workerType>
+<applicationName>cicddemo</applicationName>
+<objectStoreV2>true</objectStoreV2>
+</cloudHubDeployment>
+
 			</plugin>
 		</plugins>
 	</build>
