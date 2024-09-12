@@ -31,7 +31,8 @@
 				<extensions>true</extensions>
 				<configuration>
 <cloudHubDeployment>
-<uri>https://anypoint.mulesoft.com</uri>
+<uri>
+https://anypoint.mulesoft.com</uri>
 <username>Deepika_143</username>
 <password>Deepika@143</password>
 <environment>Sandbox</environment>
@@ -39,10 +40,10 @@
 <region>us-east-1</region>
 <workers>1</workers>
 <workerType>Micro</workerType>
-<applicationName>DEMO123</applicationName>
+<applicationName>DEMO1234</applicationName>
 <objectStoreV2>true</objectStoreV2>
 </cloudHubDeployment>
-
+</configuration>
 			</plugin>
 		</plugins>
 	</build>
